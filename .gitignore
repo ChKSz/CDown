@@ -16,6 +16,7 @@ env/
 ENV/
 
 # IDE 配置
+.claude/
 .vscode/
 .idea/
 *.swp
@@ -23,8 +24,7 @@ ENV/
 *~
 
 # 数据文件（可选，根据需求决定是否提交）
-# data/settings.json
-# data/*.db
+data/
 
 # 旧文件
 old/
