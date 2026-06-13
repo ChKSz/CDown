@@ -1,0 +1,43 @@
+# 排除打包生成的目录
+build/
+dist/
+*.spec
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 数据文件（可选，根据需求决定是否提交）
+# data/settings.json
+# data/*.db
+
+# 旧文件
+old/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 代码检查缓存
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# 日志文件
+*.log
